@@ -1,0 +1,14 @@
+#include iostream
+using namespace std ;
+//Function 1
+
+void main2()
+{
+	char Prop1 = 'c' ;
+	{ 
+		dec Wheels; 
+		{ 
+			int c = 6; 
+		}
+	}
+}

@@ -1,0 +1,46 @@
+< Punctuation, ; >
+< Data Type, void >
+< Identifier, main2 >
+< Punctuation, ( >
+< Punctuation, ) >
+< Punctuation, { >
+< Data Type, int >
+< Identifier, i >
+< Assignment Operator, = >
+< Integer, 0 >
+< Punctuation, ; >
+< Data Type, string >
+< Identifier, x >
+< Assignment Operator, = >
+< Literals, "abc" >
+< Punctuation, ; >
+< Punctuation, } >
+< Data Type, void >
+< Identifier, main3 >
+< Punctuation, ( >
+< Punctuation, ) >
+< Punctuation, { >
+< Data Type, int >
+< Identifier, Cars >
+< Assignment Operator, = >
+< Integer, 0 >
+< Punctuation, ; >
+< Punctuation, } >
+< Data Type, void >
+< Identifier, main4 >
+< Punctuation, ( >
+< Punctuation, ) >
+< Punctuation, { >
+< Data Type, int >
+< Identifier, Juan >
+< Assignment Operator, = >
+< Integer, 0 >
+< Punctuation, ; >
+< Punctuation, { >
+< Data Type, int >
+< Identifier, Boi >
+< Assignment Operator, = >
+< Integer, 1 >
+< Punctuation, ; >
+< Punctuation, } >
+< Punctuation, } >

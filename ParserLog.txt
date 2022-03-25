@@ -1,0 +1,133 @@
+
+
+Shift include to stack
+Input: iostreamusingnamespacestdvoidmain(){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $include
+
+Shift iostream to stack
+Input: usingnamespacestdvoidmain(){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostream
+
+Shift using to stack
+Input: namespacestdvoidmain(){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusing
+
+Shift namespace to stack
+Input: stdvoidmain(){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespace
+
+Shift std to stack
+Input: voidmain(){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd
+
+Shift void to stack
+Input: main(){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestdvoid
+
+Reduced void -> _DTYPE_
+Stack: $includeiostreamusingnamespacestd_DTYPE_
+
+Shift main to stack
+Input: (){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main
+
+Shift ( to stack
+Input: ){charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(
+
+Shift ) to stack
+Input: {charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main()
+
+Shift { to stack
+Input: charProp1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){
+
+Shift char to stack
+Input: Prop1='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){char
+
+Reduced char -> _DTYPE_
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_
+
+Shift Prop1 to stack
+Input: ='c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1
+
+Shift = to stack
+Input: 'c';{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1=
+
+Shift 'c' to stack
+Input: ;{floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c'
+
+Shift ; to stack
+Input: {floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';
+
+Shift { to stack
+Input: floatWheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{
+
+Shift float to stack
+Input: Wheels=0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{float
+
+Reduced float -> _DTYPE_
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_
+
+Shift Wheels to stack
+Input: =0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels
+
+Shift = to stack
+Input: 0.0;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=
+
+Shift 0.0 to stack
+Input: ;{intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0
+
+Shift ; to stack
+Input: {intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;
+
+Shift { to stack
+Input: intc=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{
+
+Shift int to stack
+Input: c=6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{int
+
+Reduced int -> _DTYPE_
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_
+
+Shift c to stack
+Input: =6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_c
+
+Shift = to stack
+Input: 6;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_c=
+
+Shift 6 to stack
+Input: ;}}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_c=6
+
+Shift ; to stack
+Input: }}}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_c=6;
+
+Shift } to stack
+Input: }}
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_c=6;}
+
+Shift } to stack
+Input: }
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_c=6;}}
+
+Shift } to stack
+Input: 
+Stack: $includeiostreamusingnamespacestd_DTYPE_main(){_DTYPE_Prop1='c';{_DTYPE_Wheels=0.0;{_DTYPE_c=6;}}}

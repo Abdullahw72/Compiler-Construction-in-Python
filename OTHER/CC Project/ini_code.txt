@@ -1,0 +1,28 @@
+include iostream
+using namespace std ;
+#Function1
+
+void main2 ( )
+{
+	int i = 0 ;
+	string x = "abc" ;
+}
+
+#Function2
+
+void main3 ( )
+{
+
+	int Cars = 0 ;
+
+}
+
+#MainFunction
+
+void main4 ( )
+{
+	int Juan = 0 ;
+	{ 
+		int Boi = 1 ; 
+	}
+}

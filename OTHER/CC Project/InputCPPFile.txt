@@ -1,0 +1,85 @@
+include iostream
+using namespace std ;
+#Function 1
+
+void main2 ( )
+{
+	char Prop1 = 'c' ;
+	{ 
+		float Wheels ; 
+		{ 
+			int c = 6 ; 
+		}
+	}
+}
+
+#Function 2
+
+void main3 ( )
+{
+int Cars1 ;
+	if ( a > b )
+	{
+		if ( a != b )
+		{
+		
+		}
+		else
+		{
+		
+		}
+	}
+	else if ( a < b )
+	{
+	
+	}
+	else
+	{
+	
+	}
+	bool b = true ;
+	{ 
+		float a;
+		do
+		{ 
+			double Horse = 0.9 ; 
+
+		} while ( a > b )
+
+		while ( a > b )
+		{
+			a = a + b * a ;
+		}
+
+	}
+}
+
+#Main Function
+
+void main ( )
+{
+	int Juan = 0 ;
+	{ 
+		int Boi = 1 ; 
+	}
+
+	for ( int a = 0 ; a > b ; a += 1 ; )
+	{
+		float insideForLoop1 = 0.0 ;
+		for ( int a = 0 ; a > b ; a -= 1 ; )
+		{
+			float insideForLoop2 = 0.0 ;
+		}
+		
+		float insideForLoop3 = 0.0 ;
+	}
+	switch ( a )
+	{
+		case 1 :
+		char case1 = '1' ;
+		break ;
+		default :
+		string def = "1" ;
+		break ;
+	}
+}

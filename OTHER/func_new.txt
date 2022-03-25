@@ -1,0 +1,30 @@
+< #include, dictii, 1 >
+< iostream, identifier, 1 >
+< using, identifier, 2 >
+< namespace, identifier, 2 >
+< std, identifier, 2 >
+< ;, Terminator, 2 >
+< void, identifier, 5 >
+< main2, identifier, 5 >
+< (, Punctuator, 5 >
+< ), Punctuator, 5 >
+< {, Punctuator, 6 >
+< char, Keyword, 7 >
+< Prop1, identifier, 7 >
+< =, Assignment Operator, 7 >
+< 'c', CharacterConstant, 7 >
+< ;, Terminator, 7 >
+< {, Punctuator, 8 >
+< dec, dataType, 9 >
+< Wheels, identifier, 9 >
+< ;, Terminator, 9 >
+< {, Punctuator, 10 >
+< int, dataType, 11 >
+< c, identifier, 11 >
+< =, Assignment Operator, 11 >
+< 6, IntegerConstant, 11 >
+< ;, Terminator, 11 >
+< }, Punctuator, 12 >
+< }, Punctuator, 13 >
+< }, Punctuator, 14 >
+< $, $, 15 >

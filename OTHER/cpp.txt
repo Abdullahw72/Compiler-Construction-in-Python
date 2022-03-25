@@ -1,0 +1,6 @@
+main ( )
+{
+int a1 = 2 ;
+int a2 = 5 ; 
+return 0 ;
+}

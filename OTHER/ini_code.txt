@@ -1,0 +1,39 @@
+
+void main ( )
+{
+	int x = 10 ; 
+	void abc ( ) 
+	{ 
+		int y = 20 ;
+		void cde ( ) 
+		{ 
+			int z = 6 ; 
+		}
+	}
+}
+
+void main ( )
+{
+	int Juan = 0 ;
+	{ 
+		int Boi = 1 ; 
+	}
+
+	for ( int a = 0 ; a > b ; a ++ ; )
+	{
+		float insideForLoop1 = 0.0 ;
+		for ( int a = 0 ; a > b ; a -- ; )
+		{
+			float insideForLoop2 = 0.0 ;
+		}
+		
+		float insideForLoop3 = 0.0 ;
+	}
+	switch ( a )
+	{
+		char case1 = '1' ;
+		break ;
+		string def = "1" ;
+		break ;
+	}
+}

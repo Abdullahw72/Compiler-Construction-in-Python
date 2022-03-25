@@ -1,0 +1,26 @@
+< Punctuation, { >
+< Data Type, int >
+< Identifier, a >
+< Assignment Operator, = >
+< Integer, 2 >
+< Punctuation, ; >
+< Punctuation, { >
+< Punctuation, { >
+< Data Type, int >
+< Identifier, b >
+< Assignment Operator, = >
+< Integer, 5 >
+< Punctuation, ; >
+< Punctuation, } >
+< Punctuation, } >
+< Data Type, int >
+< Identifier, c >
+< Assignment Operator, = >
+< Integer, 6 >
+< Punctuation, ; >
+< Punctuation, } >
+< Data Type, int >
+< Identifier, d >
+< Assignment Operator, = >
+< Integer, 5 >
+< Punctuation, ; >
